@@ -1,0 +1,8 @@
+[build]
+  publish = "build/web"
+  command = "chmod +x netlify.sh && ./netlify.sh"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
